@@ -440,5 +440,5 @@ a:active {
 
 .container {
   width: 960px;
-  margin: var(--section-header-align);
+  margin: auto;
 }

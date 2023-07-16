@@ -661,10 +661,6 @@ ul.row {
   overflow: hidden;
 }
 
-.card-work:hover .card-outer {
-  transform: scale(0.95);
-}
-
 .card-work .card-image img {
   height: 30rem;
   width: 100%;
@@ -672,9 +668,17 @@ ul.row {
   vertical-align: bottom;
 }
 
+.card-work:hover .card-inner {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 .card-work:hover .card-image {
   transform: scale(1.2);
   transition: var(–transition-duration) var(transition-cubic-bezier);
+}
+
+.card-work:hover .card-outer {
+  transform: scale(0.95);
 }
 
 .card-work .card-inner {
@@ -684,10 +688,6 @@ ul.row {
   right: -0.1rem;
   z-index: 1;
   transition: var(–transition-duration) var(transition-cubic-bezier);
-}
-
-.card-work:hover .card-inner {
-  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work .card-title {
